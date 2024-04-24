@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    tools:context=".inweb">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/atasbirukotak"
+        android:layout_width="581dp"
+        android:layout_height="428dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-95dp"
+        android:layout_marginEnd="-99dp"
+        android:layout_marginBottom="-176dp"
+        app:srcCompat="@drawable/kotak_inweb" />
+
+    <ImageView
+        android:id="@+id/sidikiri"
+        android:layout_width="70dp"
+        android:layout_height="97dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="-19dp"
+        app:srcCompat="@drawable/sidiklagi_inweb" />
+
+    <ImageView
+        android:id="@+id/sidikjari"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="322dp"
+        app:srcCompat="@drawable/sidik_inweb" />
+
+
+
+    <ImageView
+        android:id="@+id/patternatas"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-7dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/patternatas_inweb" />
+
+    <ImageView
+        android:id="@+id/patternataslagi"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-90dp"
+        android:layout_marginEnd="-7dp"
+        app:srcCompat="@drawable/patternlagi_inweb" />
+
+    <ImageView
+        android:id="@+id/gunungweb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="-105dp"
+        android:layout_marginEnd="-99dp"
+        android:layout_marginBottom="-226dp"
+        android:layout_below="@id/atasbirukotak"
+        app:srcCompat="@drawable/gunung_inweb" />
+
+                <ImageView
+                    android:id="@+id/gunungw"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="-105dp"
+                    android:layout_marginEnd="-99dp"
+                    android:layout_marginBottom="-26dp"
+                    android:layout_below="@id/atasbirukotak"
+                    app:srcCompat="@drawable/grupajah" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</ScrollView>
