@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Webaqua"
         tools:targetApi="31">
         <activity
+            android:name=".inscan"
+            android:exported="false" />
+        <activity
             android:name=".inweb"
             android:exported="false" />
         <activity
