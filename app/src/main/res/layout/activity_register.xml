@@ -70,7 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.909"
+        app:layout_constraintVertical_bias="0.976"
         tools:ignore="HardcodedText,MissingConstraints,Onclick,UsingOnClickInXml,SpeakableTextPresentCheck" />
 
     <TextView
@@ -147,7 +147,7 @@
         app:layout_constraintHorizontal_bias="0.177"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.622"
+        app:layout_constraintVertical_bias="0.612"
         tools:ignore="HardcodedText,MissingConstraints" />
 
     <ImageView
@@ -173,7 +173,7 @@
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556"
+        app:layout_constraintVertical_bias="0.544"
         app:passwordToggleEnabled="true"
         app:passwordToggleTint="#1A529D"
         app:startIconTint="#1A529D"
@@ -207,7 +207,7 @@
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711"
+        app:layout_constraintVertical_bias="0.686"
         app:passwordToggleEnabled="true"
         app:passwordToggleTint="#1A529D"
         app:startIconTint="#1A529D"

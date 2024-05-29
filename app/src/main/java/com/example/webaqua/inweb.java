@@ -1,9 +1,12 @@
 package com.example.webaqua;
 
+import android.content.ClipData;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,10 +18,14 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
+
 public class inweb extends AppCompatActivity {
 
-    private ImageButton scanaja;
+    int hitung=1;
+    TextView angkanotif;
 
+
+    private ImageButton scanaja;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +34,8 @@ public class inweb extends AppCompatActivity {
         DrawerLayout drawerLayout = findViewById(R.id.driver_layout);;
         NavigationView navigationView =findViewById(R.id.nav_menu);
 
+        angkanotif=findViewById(R.id.angkanotif);
+
         navigationView.setNavigationItemSelectedListener(item -> {
             if (item.getItemId() == R.id.logout) {
                 // Buka halaman pertama jika item menu 1 diklik
@@ -34,13 +43,28 @@ public class inweb extends AppCompatActivity {
                 startActivity(intent1);
             }
 
+            if (item.getItemId() == R.id.notif) {
+                hitung ++;
+                angkanotif.setText(""+hitung);
+            }
+
             drawerLayout.closeDrawers();
             return true;
         });
 
 
-    } public void klikscan(View view) {
+    } public void pencetscan(View view) {
         Intent intent = new Intent(inweb.this, inscan.class);
+        startActivity(intent);
+    }
+
+    public void redeem(View view) {
+        Intent intent = new Intent(inweb.this, redeem.class);
+        startActivity(intent);
+    }
+
+    public void supresgift(View view) {
+        Intent intent = new Intent(inweb.this, penutupan.class);
         startActivity(intent);
     }
 
